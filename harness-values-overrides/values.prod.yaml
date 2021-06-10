@@ -12,7 +12,7 @@
 ##
 image:
   registry: docker.io
-  repository: bitnami/nginx
+  repository: ${DOCKER_IMAGE_NAME}
   tag: ${DOCKER_IMAGE_TAG}
   ## Specify a imagePullPolicy
   ## Defaults to 'Always' if image tag is 'latest', else set to 'IfNotPresent'
